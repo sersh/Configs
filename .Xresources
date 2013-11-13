@@ -1,0 +1,30 @@
+URxvt*foreground: #d2d2d2
+URxvt*background: #20202f
+URxvt*color0: #404040
+URxvt*color8: #363636
+URxvt*color1: #FE4365
+URxvt*color9: #E43C5B
+URxvt*color2: #83AF9B
+URxvt*color10: #769D8B
+URxvt*color3: #F9CDAD
+URxvt*color11: #E0B89B
+URxvt*color4: #8396AF
+URxvt*color12: #656B99
+URxvt*color5: #A383AF
+URxvt*color13: #856094
+URxvt*color6: #fc9d9a
+URxvt*color14: #E28D8A
+URxvt*color7: #EDD8D1
+URxvt*color15: #FCEDE3
+
+URxvt*scrollBar: false
+URxvt*cursorUnderline: true
+URxvt*cursorColor: #20202f
+URxvt*colorUL: #9695b5
+URxvt*internalBorder:0
+URxvt*borderColor: #20202f
+
+URxvt*font: xft:Tewi:size=10
+URxvt*boldFont: xft:Tewi:size=10
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
