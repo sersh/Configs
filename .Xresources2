@@ -1,0 +1,58 @@
+URxvt*foreground: #d2d2d2
+URxvt*background: #1c1c23
+
+URxvt*color0:  #1a1a1a
+! 64 64 64
+URxvt*color8:  #404040
+! red
+! 215 95 95
+URxvt*color1:  #d75f5f
+! 234 132 132
+URxvt*color9:  #EA8484
+! green
+! 135 175 95
+URxvt*color2:  #87af5f
+! 199 240 159
+URxvt*color10: #C7F09F
+! yellow
+! 255 175 95
+URxvt*color3:  #ffaf5f
+! 255 204 154
+URxvt*color11: #FFCC9A
+! blue
+! 135 175 215
+URxvt*color4:  #87afd7
+! 165 202 239
+URxvt*color12: #a5caef
+! magenta
+! 135 135 175
+URxvt*color5:  #8787af
+! 166 166 222
+URxvt*color13: #A6A6DE
+! cyan
+! 95 135 135
+URxvt*color6:  #5f8787
+! 105 178 178
+URxvt*color14: #69b2b2
+! white
+! 128 128 128
+URxvt*color7:  #808080
+! 215 215 215
+URxvt*color15: #d7d7d7
+
+URxvt*scrollBar: false
+URxvt*cursorUnderline: true
+URxvt*cursorColor: #20202f
+URxvt*colorUL: #9695b5
+URxvt*internalBorder:4
+URxvt*borderColor: #1c1c23
+
+URxvt*font: xft:Tewi:size=11
+URxvt*boldFont: xft:Tewi:size=11
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
+URxvt*perl-lib:            /usr/lib/urxvt/perl/
+URxvt*perl-ext-common:        default,matcher
+URxvt*url-launcher:        Firefox
+URxvt*matcher.button:        1
+URxvt*matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
