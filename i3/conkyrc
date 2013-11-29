@@ -1,15 +1,19 @@
 out_to_x no
+own_window no
 out_to_console yes
 background no
-
+max_text_width 0
+# Update interval in seconds
 update_interval 1.0
 total_run_times 0
-use_spacer left
+override_utf8_locale yes
+alignment top_center
+
+use_xft yes
+font ProFont:size=9
+
 TEXT
-^i(/home/sersh/.icons/dzenicons/sm4tik-icon-pack/xbm/note.xbm) ${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif} ^i(/home/sersh/.icons/dzenicons/sm4tik-icon-pack/xbm/clock.xbm) ${time %I:%M - %A, %B %d} \
-
-
-#[
-#{"full_text":"${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif}" } , 
-#{^i(/home/sersh/.icons/dzenicons/sm4tik-icon-pack/xbm/clock.xbm)^"full_text":"${time %I:%M - %A, %B %d}","color":"\#ffffff"}
-#],
+[
+{"full_text" : "${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif}","color":"\#FFFFFF" } , 
+{"full_text":"${time %I:%M - %A, %B %d}","color":"\#ffffff"}
+],
