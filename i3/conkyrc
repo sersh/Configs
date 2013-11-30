@@ -19,4 +19,5 @@ TEXT
 ],
 
 #For DZEN2 users:
+#TEXT
 #^i(/home/sersh/.icons/dzenicons/note.xbm) ${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif} - ^i(/home/sersh/.icons/dzenicons//clock.xbm) ${time %I:%M - %A, %B %d} \
