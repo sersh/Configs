@@ -19,4 +19,4 @@ TEXT
 ],
 
 #For DZEN2 users:
-#^i(/home/sersh/.icons/dzenicons/sm4tik-icon-pack/xbm/note.xbm) ${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif} ^i(/home/sersh/.icons/dzenicons/sm4tik-icon-pack/xbm/clock.xbm) ${time %I:%M - %A, %B %d} \
+#^i(/home/sersh/.icons/dzenicons/note.xbm) ${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif} - ^i(/home/sersh/.icons/dzenicons//clock.xbm) ${time %I:%M - %A, %B %d} \
