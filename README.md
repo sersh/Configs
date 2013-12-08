@@ -7,4 +7,4 @@ If you need help with something you can find me on irc.rizon.net/6667 under the 
 * Firefox CSS: https://github.com/sersh/this_repo_will_self_destruct
 * 4Chan Scripts: http://seaweedchan.github.io/4chan-x/ and http://seaweedchan.github.io/OneeChan/
 
-![lericeface](http://a.pomf.se/bc8fd.png)
+![lericeface](http://a.pomf.se/la73q.png)
