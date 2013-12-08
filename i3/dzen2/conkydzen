@@ -1,0 +1,10 @@
+background yes
+out_to_console yes
+out_to_x no
+update_interval 1
+
+TEXT
+${if_mpd_playing}^fg(\#989584)^i(/home/sersh/.icons/dzenicons/play.xbm) ^fg(\#d75f5f)${mpd_artist} - ${mpd_title} ${mpd_elapsed}/${mpd_length}${else} ^fg(\#d75f5f)Pause${endif}${endif}   \
+${if_mpd_playing}^fg(\#989584)^i(/home/sersh/.icons/dzenicons/spkr_01.xbm) ${exec /home/sersh/.i3/bar_vol.sh}${endif}   \
+^fg(\#989584)^i(/home/sersh/.icons/dzenicons/clock.xbm) ^fg(\#d75f5f)${time %I:%M - %A, %B %d} 
+
