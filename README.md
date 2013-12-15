@@ -1,5 +1,7 @@
 Configs
 =========
+If you use any of my configs and want to give thanks to me feel free to donate some dogecoin to DUAnNSKVPHWtTEEtwXTaDoN4wzghDoeNrS - Thanks!
+
 If you need help with something you can find me on irc.rizon.net/6667 under the username "Sersh". Feel free to PM me.
 
 * Dzen icons for i3:
