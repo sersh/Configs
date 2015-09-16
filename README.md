@@ -1,8 +1,6 @@
 Configs
 =========
-If you use any of my configs and want to give thanks to me feel free to donate some dogecoin to DUAnNSKVPHWtTEEtwXTaDoN4wzghDoeNrS - Thanks!
-
-If you need help with something you can find me on irc.rizon.net/6667 under the username "Sersh". Feel free to PM me.
+I no longer rice and can not offer help with any of these configs.
 
 * Dzen icons for i3:
 * https://github.com/Lykathia/.dotfiles/tree/master/icons/sm4tik
